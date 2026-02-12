@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lordy Christ | Developer & Artist</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  
+    <div class="container nav-wrapper">
+      <a href="#" class="logo">LC.</a>
+    </div>
+  
+
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="subtitle">Creative Developer & Digital Artist</p>
+        <h1>Lordy Christ <span class="highlight">Ecot</span></h1>
+        <p class="description">Building modern web experiences and creating vibrant digital art. Let's build something amazing together.</p>
+        <div class="hero-btns">
+          <a href="#portfolio" class="btn">View My Art</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="image/3842a8e6d562e39a0423394d9fe14af2.jpg" alt="Lordy Christ">
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <h3>The Artist Behind the Code</h3>
+          <p>I am a 19-year-old developer and artist who loves combining technical logic with creative design. I specialize in building responsive websites and high-quality digital illustrations.</p>
+          <div class="tags">
+            <span>HTML5</span><span>CSS3</span><span>Web Design</span><span>Digital Art</span><span>Problem Solving</span>
+          </div>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-box"><h3>22+</h3><p>Artworks</p></div>
+          <div class="stat-box"><h3>100%</h3><p>Passion</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section bg-darker">
+    <div class="container">
+      <h2 class="section-title">My Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="icon">💻</div>
+          <h3>Web Development</h3>
+          <p>Modern, mobile-friendly websites built for speed and performance.</p>
+        </div>
+        <div class="service-card">
+          <div class="icon">🎨</div>
+          <h3>Art Commissions</h3>
+          <p>Custom digital illustrations and character designs tailored to your vision.</p>
+        </div>
+        <div class="service-card">
+          <div class="icon">✨</div>
+          <h3>UI/UX Design</h3>
+          <p>Designing beautiful and intuitive interfaces for a better user experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2 class="section-title">My Art Gallery</h2>
+      <p style="text-align: center; color: #a0a0a0; margin-bottom: 20px;">Swipe or use arrows to explore</p>
+      
+      <div class="slider-container">
+        <button class="nav-btn prev" id="prevBtn">&#10094;</button>
+        <div class="art-slider" id="artSlider">
+          <div class="slide"><img src="image/11.png" alt="Art"></div>
+          <div class="slide"><img src="image/A Bridge.png" alt="Art"></div>
+          <div class="slide"><img src="image/A day In A City_20250824173733.png" alt="Art"></div>
+          <div class="slide"><img src="image/Beauty in Everything.png" alt="Art"></div>
+          <div class="slide"><img src="image/Beauty of Orange_20250822122518_1.png" alt="Art"></div>
+          <div class="slide"><img src="image/Cliff.png" alt="Art"></div>
+          <div class="slide"><img src="image/Cycle for a day_20250824173449.png" alt="Art"></div>
+          <div class="slide"><img src="image/Euphoria.png" alt="Art"></div>
+          <div class="slide"><img src="image/Fun time.png" alt="Art"></div>
+          <div class="slide"><img src="image/Glowing horizon.png" alt="Art"></div>
+          <div class="slide"><img src="image/Night in the Woods.png" alt="Art"></div>
+          <div class="slide"><img src="image/Peace in my life_1.png" alt="Art"></div>
+          <div class="slide"><img src="image/Poveisk.png" alt="Art"></div>
+          <div class="slide"><img src="image/Sun breeze.png" alt="Art"></div>
+          <div class="slide"><img src="image/Untitled12.png" alt="Art"></div>
+          <div class="slide"><img src="image/With you.png" alt="Art"></div>
+          <div class="slide"><img src="image/ZZZ_20250925102145.png" alt="Art"></div>
+          <div class="slide"><img src="image/Untitled11_20250602174614_1.png" alt="Art"></div>
+          <div class="slide"><img src="image/Journey of faith.png" alt="Art"></div>
+          <div class="slide"><img src="image/One In A Thousand.png" alt="Art"></div>
+          <div class="slide"><img src="image/Beauty of Magenta.png" alt="Art"></div>
+          <div class="slide"><img src="image/5 in the afternoon.png" alt="Art"></div>
+        </div>
+        <button class="nav-btn next" id="nextBtn">&#10095;</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section bg-darker">
+    <div class="container contact-wrapper">
+      <div class="contact-info">
+        <h2 class="section-title" style="text-align: left; left:0; transform:none;">Get In Touch</h2>
+        <p>Looking for a developer or a custom artwork? Drop me a message!</p>
+        <div class="contact-details">
+          <p><strong>Email:</strong> ozakihowl@gmail.com</p>
+          <p><strong>Discord:</strong> ozaki_hhoowwll</p>
+          <p><strong>Facebook:</strong> Lordy Christ C. Ecot</p>
+        </div>
+      </div>
+      <form class="contact-form" action="https://formspree.io/f/YOUR_ID_HERE" method="POST">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Lordy Christ C. Ecot. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Menu Toggle
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    menuToggle.onclick = () => {
+      navLinks.classList.toggle('show');
+    };
+
+    // Slider Navigation
+    const slider = document.getElementById('artSlider');
+    const nextBtn = document.getElementById('nextBtn');
+    const prevBtn = document.getElementById('prevBtn');
+
+    nextBtn.onclick = () => {
+      const move = slider.querySelector('.slide').clientWidth + 20;
+      slider.scrollBy({ left: move, behavior: 'smooth' });
+    };
+    prevBtn.onclick = () => {
+      const move = slider.querySelector('.slide').clientWidth + 20;
+      slider.scrollBy({ left: -move, behavior: 'smooth' });
+    };
+  </script>
+</body>
+</html>
